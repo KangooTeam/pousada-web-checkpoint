@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>POUSADA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/ee4091b551.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../img/icon.png" />
+</head>
+
+<body>
+
+    <div class="container3">
+        <header>
+            <ul>
+                <li style="float:left"><a class="active" href="index.html"><i class="fas fa-umbrella-beach logo"></i>Kangoo</a>
+                </li>
+                <li><a href="../html/chat.html">Chat</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="local.html">Local</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="acomodacoes.html">Acomodações</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </header>
+        <div class="container-contato">
+            <h2 id="heading">Contatos</h2>
+            <div id="subt-contato">Fale conosco, será um prazer tirar suas dúvidas.</div>
+            
+			<form class="formulario" action="validacao" method="post">
+                <div class="parte1">
+                    <div class="form-nome">
+                        <label class="control-label" for="nome">Nome</label>
+                        <div class="col-md-10 input">
+                            <input type="text" class="form-control" name="nome" required>
+                            <span>Campo inválido.</span>
+                            
+                        </div>
+                    </div>
+                    <div class="form-email">
+                        <label class="control-label" for="email">E-mail</label>
+                        <div class="col-md-10 input">
+                            <input type="email" class="form-control" name="email" required>
+                        	<span>Campo inválido.</span>
+                        </div>
+                    </div>
+                    <div class="form-telefone">
+                        <label class="control-label" for="telefone">Telefone (opcional)</label>
+                        <div class="col-md-10">
+                            <input type="tel" class="form-control" name="telefone">
+                        </div>
+                    </div>
+                </div>
+                <div class="parte2">
+                    <div class="form-msg input">
+                        <p class="titulo text-right">Mensagem</p>
+                        <textarea name="mensagem" class="form-control" placeholder="Digite aqui a mensagem" rows="8" cols="60" required></textarea>
+                    	<span>Campo inválido.</span>
+                    </div>                    
+                    <input type="submit" value="Enviar" id="form-contato">
+
+                </div>
+            </form>
+            <p class="texto-contato">Informações e reservas: <br> +55 81 0000-0000 / <i class="fa fa-whatsapp" aria-hidden="true">&nbsp;</i>+55 81 90000-0000<br> Email: reservas@kangoo.com<br>Skype: kangoo</p>
+        </div>
+    </div>
+    <!-- Inclusão do jQuery-->
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<!-- Inclusão do Plugin jQuery Validation-->
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+</body>
+
+</html>
+<style>
+textarea:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+textarea:focus:invalid {
+  box-shadow: none;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red; 
+}
+
+.input span {
+  color: red;
+  display: none /* Esconde o span */
+}
+
+.input input:invalid + span {
+  display: inline /* Exibe o span somente se o input for inválido. */
+}
+
+.input textarea:invalid + span {
+  display: inline /* Exibe o span somente se o input for inválido. */
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
+</style>

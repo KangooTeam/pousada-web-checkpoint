@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.container1 {
+    background-image: url(../img/background1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.container3 {
+    background-image: url(../img/background3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.container4 {
+    background-image: url(../img/background4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.container5 {
+  background-image: url(../img/background5.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+li a {
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-shadow: 0 0 4px #fff, 0 0 4px #E80239;
+}
+
+.info {
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 10%;
+    float: left;
+}
+
+.title {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 28px;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #000;
+}
+
+.text {
+    border: 4px black;
+    margin-top: 10%;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #000;
+}
+
+.checkin {
+    border-radius: 5px;
+    background-color: #e0e0e0f1;
+    padding: 20px;
+    width: 25%;
+    margin-top: 10%;
+    margin-right: 16%;
+    float: right;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(247, 0, 54);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(150, 0, 32);
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+    float: left;
+    border-radius: 5px;
+    background-color: #e0e0e0f1;
+}
+
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imgCard {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container-contato {
+    color: white;
+    margin-left: 10%;
+}
+
+#heading {
+    font-size: 1.75rem;
+    padding: 0%;
+    padding-left: 16px;
+}
+
+#subt-contato {
+    padding: 1%;
+    font-size: 1rem;
+    padding-left: 16px;
+    margin-bottom: 1%;
+    padding-top: 0px;
+}
+
+.formulario {
+    width: 35%;
+    height: 50%;
+    float: left;
+    padding: 1%;
+}
+
+.form-group {
+    width: 60%;
+    size: 50%;
+}
+
+.col-md-10 {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#form {
+    width: 50%;
+}
+
+/*
+.parte2 {
+    /*display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}*/
+
+textarea {
+    background-color: #e0e0e0f1;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    width: 100%;
+}
+
+#form-contato {
+    width: fit-content;
+    align-content: center;
+    height: fit-content;
+    margin-top: 11px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto-contato {
+    float: right;
+    color: white;
+    margin-right: 10%;
+    margin-top: 4%;
+    font-size: 18px;
+}
+
+.form-msg {
+    padding-right: 10px;
+    flex-grow: 2;
+}
+
+.control-label {
+	font-size: 16px;
+	font-weight: bold;
+    padding-left: 5px;
+}
+.local{
+  padding: 20px;
+  width: 30%;
+  margin-top:10%;
+  margin-right: 10%;
+  float: right;
+}
+.imgLocal{
+width: 35%;
+margin-left: 10%;
+margin-top: 10%;
+opacity : 0.9;
+border: 2px solid white;
+border-radius: 3px;
+border: 2px solid rgba(255,255,255,0.3);
+}
+
+.pLocal{
+color: white;
+} 
+
+.titulo{
+margin-bottom: 2%;
+font-size: 20px;
+font-weight: bold;
+}
+
+.recife{
+margin-left: 30%;
+margin-top: 5%;
+margin-bottom: 5%;
+line-height: 5px;
+}
+.endereco{
+margin-top: 1%;
+}
+.atracoes{
+margin-bottom:1% ;
+line-height: 20px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.iLocal{
+width: 20px;
+height: 10px;
+}  
+
+input[type="text"],[type="email"],
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input,[type="tel"],
+select {
+  width: 55%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.text-obrg{
+	font-size: 12px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: rgb(247, 0, 54);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(150, 0, 32);
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 10%;
+  float: left;
+  border-radius: 5px;
+  background-color: #e0e0e0f1;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imgCard {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
+.pricing-table {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px rgba(#333745, 0.6);
+}
+
+.card {
+  background-color: #e0e0e0f1;
+  margin-left: 6%;
+  margin-top: 10%;
+  float: left;
+  width: 300px;
+  padding: 20px;
+  border-radius: 2px 50px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px -4px rgba(0, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+.card img {
+  width: 300px;
+  height: 180px;
+  margin-top: 20px;
+}
+
+.type {
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 1.9rem;
+  text-align: left;
+  color: rgb(247, 0, 54);
+}
+
+.price span {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+}
+
+.included {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #a0a0a0;
+}
+
+.details {
+  text-transform: capitalize;
+  list-style-type: none;
+  display: inline;
+}
+.details li {
+  font-size: 0.9rem;
+  float: left;
+  margin: 5px 0 0 15px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.details li img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+@keyframes text-hover {
+  0% {
+    right: -30%;
+  }
+  50% {
+    right: -37%;
+  }
+  100% {
+    right: -30%;
+  }
+}

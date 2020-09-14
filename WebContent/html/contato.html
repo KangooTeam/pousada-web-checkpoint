@@ -9,9 +9,7 @@
     <script src="https://kit.fontawesome.com/ee4091b551.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../img/icon.png" />
 </head>
-
 <body>
-
     <div class="container3">
         <header>
             <ul>
@@ -26,17 +24,15 @@
             </ul>
         </header>
         <div class="container-contato">
-            <h2 id="heading">Contatos</h2>
             <div id="subt-contato">Fale conosco, será um prazer tirar suas dúvidas.</div>
             
-			<form class="formulario" action="validacao" method="post">
+			<form class="formulario" name="formContato" action="sucesso.jsp" method="post">
                 <div class="parte1">
                     <div class="form-nome">
                         <label class="control-label" for="nome">Nome</label>
                         <div class="col-md-10 input">
-                            <input type="text" class="form-control" name="nome" required>
-                            <span>Campo inválido.</span>
-                            
+                            <input type="text" class="form-control" name="nome" minlength="3" required>
+                            <span>Campo inválido.</span>                            
                         </div>
                     </div>
                     <div class="form-email">
@@ -49,7 +45,7 @@
                     <div class="form-telefone">
                         <label class="control-label" for="telefone">Telefone (opcional)</label>
                         <div class="col-md-10">
-                            <input type="tel" class="form-control" name="telefone">
+                            <input type="text" style="width:40%;" name="telefone" id="telefone" maxlength="15">
                         </div>
                     </div>
                 </div>
@@ -70,6 +66,7 @@
 <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 <!-- Inclusão do Plugin jQuery Validation-->
 <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
 </body>
 
 </html>

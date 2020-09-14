@@ -32,7 +32,7 @@
 
         <div class="container-contato">
             <h2 id="heading">Enviado com sucesso.</h2>
-            <div id="subt-contato">Será verificado seu contato e daremos um retorno em breve.</div>
+            <div id="subt-contato"><%String nome = request.getParameter("nome"); out.print(nome); %>, será verificado seu contato e daremos um retorno em breve.</div>
             <div id="subt-contato">Você será redirecionado para o início...</div>
                 </div>
             <p class="texto-contato">Informações e reservas: <br> +55 81 0000-0000 / <i class="fa fa-whatsapp" aria-hidden="true">&nbsp;</i>+55 81 90000-0000<br> Email: reservas@kangoo.com<br>Skype: kangoo</p>
